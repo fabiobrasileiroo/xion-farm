@@ -8,10 +8,12 @@ import { SustainabilitySection } from "@/components/landing/sustainability-secti
 import { TestimonialsSection } from "@/components/landing/testimonials-section"
 import { PartnersSection } from "@/components/landing/partners-section"
 import { CtaSection } from "@/components/landing/cta-section"
+import { FloatingChatAI } from "@/components/floatingchatButton"
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
+      <FloatingChatAI />
       <Navbar />
       <main className="flex-1">
         <HeroSection />
