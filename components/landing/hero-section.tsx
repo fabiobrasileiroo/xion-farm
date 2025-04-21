@@ -158,16 +158,21 @@ export function HeroSection() {
                     <div className="text-white font-medium">AI Insights</div>
                   </div>
 
-                  <div className="space-y-3">
+                  {/* <div className="space-y-3">
                     <div className="h-6 bg-white/5 rounded-full w-full"></div>
                     <div className="h-6 bg-white/5 rounded-full w-[85%]"></div>
                     <div className="h-6 bg-white/5 rounded-full w-[70%]"></div>
-                  </div>
+                  </div> */}
+                    <img
+                      src="/images/farmer-dashboard.png"
+                      alt="XionFarm Dashboard"
+                      className="object-contain h-full w-full rounded-lg shadow-2xl"
+                    />
 
-                  <div className="mt-4 flex justify-between items-center">
-                    <div className="text-white/70 text-xs">Corn price prediction</div>
-                    <div className="text-green-400 text-xs">+12% next month</div>
-                  </div>
+                  {/* <div className="mt-4 flex justify-between items-center">
+                    {/* <div className="text-white/70 text-xs">Corn price prediction</div> */}
+                    {/* <div className="text-green-400 text-xs">+12% next month</div> /}
+                  </div> */}
                 </div>
               </div>
             </div>
