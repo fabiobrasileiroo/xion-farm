@@ -16,8 +16,8 @@ export function TeamSection() {
     {
       name: "Tarug - Showman",
       role: "CEO & Co-Founder",
-      bio: "Agricultural expert with 15+ years of experience in sustainable farming",
-      image: "/images/tarug.png",
+      bio: "Business specialist and visionary leader in the hackathon innovation sector. Truly a showman.",
+      image: "/founder/tarug.png",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -27,8 +27,8 @@ export function TeamSection() {
     {
       name: "Fabio",
       role: "CTO & Co-Founder",
-      bio: "Blockchain developer with a passion for agricultural innovation",
-      image: "/images/farmer2.png",
+      bio: "Fullstack development specialist, focused on scalability and high performance.",
+      image: "/founder/fabio.png",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -37,9 +37,9 @@ export function TeamSection() {
     },
     {
       name: "Cris",
-      role: "Chief Sustainability Officer",
-      bio: "Environmental scientist specializing in sustainable agricultural practices",
-      image: "/images/farmer3.png",
+      role: "Chief of Blockchain",
+      bio: "Environmental scientist focused on sustainable agricultural practices and emerging technologies.",
+      image: "/founder/cris.png",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -48,19 +48,19 @@ export function TeamSection() {
     },
     {
       name: "Juda",
-      role: "Head of AI & Analytics",
-      bio: "AI specialist with expertise in predictive analytics for agriculture",
-      image: "/placeholder.svg?height=200&width=200",
+      role: "Head of Blockchain and Data Analytics",
+      bio: "Blockchain expert with experience in decentralized solutions and data analysis.",
+      image: "/founder/juda",
       social: {
         linkedin: "#",
         twitter: "#",
         website: "#",
       },
     },
-      {
+    {
       name: "Pedro",
-      role: "Head of AI & Analytics",
-      bio: "AI specialist with expertise in predictive analytics for agriculture",
+      role: "Head of AI and Data Analytics",
+      bio: "Artificial intelligence specialist focused on predictive analytics applied to the agricultural sector.",
       image: "/placeholder.svg?height=200&width=200",
       social: {
         linkedin: "#",
@@ -68,7 +68,7 @@ export function TeamSection() {
         website: "#",
       },
     },
-  ]
+  ];
 
   const container = {
     hidden: { opacity: 0 },
