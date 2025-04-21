@@ -7,6 +7,7 @@ import { BarChart, LineChart, PieChart } from "@/components/dashboard/charts"
 import { RecentTransactions } from "@/components/dashboard/recent-transactions"
 import { ProductsList } from "@/components/dashboard/products-list"
 import { useLanguage } from "@/components/language-provider"
+import XionEmbeddedPage from "@/components/dashboard/product-iframe"
 
 export default function DashboardPage() {
   const { t } = useLanguage()
@@ -166,7 +167,8 @@ export default function DashboardPage() {
               <CardDescription>Manage your products and inventory.</CardDescription>
             </CardHeader>
             <CardContent>
-              <ProductsList />
+              {/* <ProductsList /> */}
+              <XionEmbeddedPage />
             </CardContent>
           </Card>
         </TabsContent>
