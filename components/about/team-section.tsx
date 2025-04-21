@@ -17,7 +17,7 @@ export function TeamSection() {
       name: "Tarug - Showman",
       role: "CEO & Co-Founder",
       bio: "Business specialist and visionary leader in the hackathon innovation sector. Truly a showman.",
-      image: "/founder/tarug.png",
+      image: "/founder/tarug.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -28,7 +28,7 @@ export function TeamSection() {
       name: "Fabio",
       role: "CTO & Co-Founder",
       bio: "Fullstack development specialist, focused on scalability and high performance.",
-      image: "/founder/fabio.png",
+      image: "/founder/fabio.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -39,7 +39,7 @@ export function TeamSection() {
       name: "Cris",
       role: "Chief of Blockchain",
       bio: "Environmental scientist focused on sustainable agricultural practices and emerging technologies.",
-      image: "/founder/cris.png",
+      image: "/founder/cris.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -50,7 +50,7 @@ export function TeamSection() {
       name: "Juda",
       role: "Head of Blockchain and Data Analytics",
       bio: "Blockchain expert with experience in decentralized solutions and data analysis.",
-      image: "/founder/juda",
+      image: "/founder/juda.jpeg",
       social: {
         linkedin: "#",
         twitter: "#",
