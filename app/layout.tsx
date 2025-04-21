@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "XionFarm - Sustainable Agriculture Marketplace",
   description: "Connecting farmers, consumers and investors through blockchain technology",
-    generator: 'fabio'
+  generator: 'fabio'
 }
 
 export default function RootLayout({
@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <FloatingChatAI />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             {children}
@@ -35,3 +36,4 @@ export default function RootLayout({
 
 
 import './globals.css'
+import { FloatingChatAI } from "@/components/floatingchatButton"
