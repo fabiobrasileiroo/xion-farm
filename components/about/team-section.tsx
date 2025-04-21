@@ -14,10 +14,10 @@ export function TeamSection() {
 
   const team = [
     {
-      name: "Maria Garcia",
+      name: "Tarug - Showman",
       role: "CEO & Co-Founder",
       bio: "Agricultural expert with 15+ years of experience in sustainable farming",
-      image: "/images/farmer1.png",
+      image: "/images/tarug.png",
       social: {
         linkedin: "#",
         twitter: "#",
@@ -25,7 +25,7 @@ export function TeamSection() {
       },
     },
     {
-      name: "Robert Johnson",
+      name: "Fabio",
       role: "CTO & Co-Founder",
       bio: "Blockchain developer with a passion for agricultural innovation",
       image: "/images/farmer2.png",
@@ -36,7 +36,7 @@ export function TeamSection() {
       },
     },
     {
-      name: "Lisa Chen",
+      name: "Cris",
       role: "Chief Sustainability Officer",
       bio: "Environmental scientist specializing in sustainable agricultural practices",
       image: "/images/farmer3.png",
@@ -47,7 +47,18 @@ export function TeamSection() {
       },
     },
     {
-      name: "Michael Brown",
+      name: "Juda",
+      role: "Head of AI & Analytics",
+      bio: "AI specialist with expertise in predictive analytics for agriculture",
+      image: "/placeholder.svg?height=200&width=200",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        website: "#",
+      },
+    },
+      {
+      name: "Pedro",
       role: "Head of AI & Analytics",
       bio: "AI specialist with expertise in predictive analytics for agriculture",
       image: "/placeholder.svg?height=200&width=200",
